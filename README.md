@@ -30,9 +30,7 @@ Features
 ```jsx
 import React, { Component } from 'react';
 import Lightbox from 'lightbox-react';
-import 'lightbox-react/style.css'; // This only needs to be imported once in your app
-
-import VideoIframe from 'components/video';
+import VideoIframe from 'components/cat-video';
 
 const images = [
   VideoIframe,

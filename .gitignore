@@ -1,6 +1,9 @@
 node_modules
-coverage
 npm-debug.log
+
+# Ignore yarn lockfile in libraries
+# See: https://github.com/yarnpkg/yarn/issues/838#issuecomment-253362537
+yarn.lock
 
 # Editor and other tmp files
 *.swp
@@ -13,4 +16,5 @@ npm-debug.log
 *.DS_Store
 
 # Build directories (Will be preserved by npm)
-
+dist
+build
