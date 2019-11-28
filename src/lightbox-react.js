@@ -574,7 +574,7 @@ class ReactImageLightbox extends Component {
    */
   handleOuterMousewheel(event) {
     // Prevent scrolling of the background
-    event.preventDefault();
+    // event.preventDefault();
     event.stopPropagation();
 
     const xThreshold = WHEEL_MOVE_X_THRESHOLD;
@@ -621,7 +621,7 @@ class ReactImageLightbox extends Component {
   }
 
   handleImageMouseWheel(event) {
-    event.preventDefault();
+    // event.preventDefault();
     const yThreshold = WHEEL_MOVE_Y_THRESHOLD;
 
     if (Math.abs(event.deltaY) >= Math.abs(event.deltaX)) {
